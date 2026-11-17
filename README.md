@@ -26,15 +26,6 @@ La interfaz está disponible en **español e inglés** (botón ES | EN). La eval
 
 Todo se ejecuta en el navegador del alumno. No hay servidor, no se necesita clave de API y no se envía ningún dato a ningún sitio. El historial se guarda solo en ese navegador (localStorage) hasta que se pulsa «Empezar de cero».
 
-### Publicar en GitHub Pages
-
-1. Crea un repositorio público en GitHub (por ejemplo `evaluador-costar`).
-2. Sube a la raíz del repositorio todo el contenido de esta carpeta: `index.html`, `README.md` y las carpetas `js/` y `lib/`. Desde la web de GitHub: *Add file → Upload files* y arrastra los archivos y carpetas.
-3. En *Settings → Pages*, dentro de *Build and deployment*, elige **Deploy from a branch**, rama `main` y carpeta `/ (root)`. Pulsa *Save*.
-4. En uno o dos minutos la web estará disponible en `https://TU-USUARIO.github.io/evaluador-costar/`.
-
-Para probarla en local basta con abrir `index.html` en el navegador.
-
 ### Estructura del proyecto
 
 | Archivo | Contenido |
@@ -94,15 +85,6 @@ The interface is available in **Spanish and English** (ES | EN button). The eval
 ### Privacy
 
 Everything runs in the student's browser. There is no server, no API key is needed and no data is sent anywhere. The history is stored only in that browser (localStorage) until "Start over" is clicked.
-
-### Publishing on GitHub Pages
-
-1. Create a public repository on GitHub (for example `costar-evaluator`).
-2. Upload the whole content of this folder to the root of the repository: `index.html`, `README.md` and the `js/` and `lib/` folders. On the GitHub website: *Add file → Upload files*, then drag in the files and folders.
-3. Go to *Settings → Pages* and, under *Build and deployment*, choose **Deploy from a branch**, branch `main`, folder `/ (root)`. Click *Save*.
-4. After a minute or two the site will be live at `https://YOUR-USERNAME.github.io/costar-evaluator/`.
-
-To try it locally, just open `index.html` in a browser.
 
 ### Project structure
 
